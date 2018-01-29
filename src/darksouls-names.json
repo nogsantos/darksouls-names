@@ -1,0 +1,313 @@
+{
+    "I": {
+        "NPCs": {
+            "Sorcery": [
+                "Griggs of Vinheim",
+                "Blacksmith Rickert of Vinheim",
+                "Big Hat Logan",
+                "Dusk of Oolacile",
+                "Ingward"
+            ],
+            "Pyromancy": [
+                "Laurentius of the Great Swamp",
+                "Quelana of Izalith",
+                "Eingyi of the Great Swamp"
+            ],
+            "Miracles": [
+                "Petrus of Thorolund",
+                "Reah of Thorolund"
+            ],
+            "Firelink Shrine": [
+                "Crestfallen Warrior",
+                "Anastacia of Astora",
+                "Kingseeker Frampt",
+                "Vince of Thorolund",
+                "Nico of Thorolund"
+            ],
+            "Undead Burg": [
+                "Solaire of Astora",
+                "Undead Merchant (Male)",
+                "Undead Merchant (Female)"
+            ],
+            "Undead Parish": [
+                "Andre of Astora",
+                "Knight Lautrec of Carim",
+                "Oswald of Carim"
+            ],
+            "Darkroot Garden": [
+                "Alvina of the Darkroot Wood",
+                "Shiva of the East"
+            ],
+            "Depths": [
+                "Domhnall of Zena"
+            ],
+            "Blighttown": [
+                "Quelaan"
+            ],
+            "Sen's Fortress": [
+                "Siegmeyer of Catarina",
+                "Crestfallen Merchant"
+            ],
+            "New Londo Ruins": [
+                "Ingward",
+                "Darkstalker Kaathe"
+            ],
+            "Anor Londo": [
+                "Darkmoon Knightess",
+                "Princess Gwynevere",
+                "Dark Sun Gwyndolin",
+                "Giant Blacksmith"
+            ],
+            "Painted World of Ariamis": [
+                "Crossbreed Priscilla"
+            ],
+            "The Catacombs": [
+                "Blacksmith Vamos",
+                "Patches the Hyena"
+            ],
+            "Crystal Caves": [
+                "Sieglinde of Catarina"
+            ],
+            "DLC NPCs": [
+                "Elizabeth",
+                "Marvellous Chester",
+                "Lord's Blade Ciaran",
+                "Hawkeye Gough"
+            ]
+        },
+        "Enemies": {
+            "Hollows": [
+                "Hollows",
+                "Torch Hollows",
+                "Undead Warrior",
+                "Undead Assassin",
+                "Undead Soldier (Sword)",
+                "Undead Soldier (Spear)",
+                "Balder Knight",
+                "Undead Knight Archer",
+                "Engorged Hollow",
+                "Undead Crystal Soldier",
+                "Undead Crystal Archer",
+                "Crystal Knight",
+                "Undead Attack Dog",
+                "Flaming Attack Dog",
+                "Infested Ghoul",
+                "Darkwraith Knight",
+                "Necromancer"
+            ],
+            "Skeletons": [
+                "Skeleton",
+                "Giant Skeleton (Sword)",
+                "Giant Skeleton (Bow)",
+                "Skeleton Beast",
+                "Wheel Skeleton",
+                "Bone Tower",
+                "Skeleton Baby"
+            ],
+            "Wildlife": [
+                "Basilisk",
+                "Tree Lizard",
+                "Ents",
+                "Frog-Ray",
+                "Small Mushroom People",
+                "Large Mushroom People",
+                "Man-Eater Shell",
+                "Small Rats",
+                "Large Rats",
+                "Snow Rat",
+                "Drake",
+                "Giant Leech",
+                "Giant Mosquito",
+                "Cragspider",
+                "Man Serpent",
+                "Serpent Mage",
+                "Burrowing Rockworm",
+                "Slime",
+                "Chaos Bug",
+                "Minor Moonlight Butterfly"
+            ],
+            "Giants": [
+                "Great Stone Knight",
+                "Giant",
+                "Infested Barbarian (Club)",
+                "Infested Barbarian (Boulder)",
+                "Crystal Golem",
+                "Sentinel",
+                "Royal Sentinel"
+            ],
+            "Other": [
+                "Ghost",
+                "Phalanx",
+                "Wisp",
+                "Vile Maggot",
+                "Egg Carrier",
+                "Banshee",
+                "Chaos Eater",
+                "Silver Knight",
+                "Painting Guardian",
+                "Clan of Forest Protectors (Cleric, Sorcerer, Thief, Knights, Bandit)",
+                "Pisaca",
+                "Pinwheel Servant"
+            ],
+            "Special": [
+                "Crystal Lizard",
+                "Parasitic Wall Hugger",
+                "Hollowed Asylum Knight",
+                "Black Knight",
+                "Blowdart Sniper",
+                "Darkmoon Soldiers",
+                "Possessed Tree",
+                "Great Feline",
+                "Mimic",
+                "The Channeler",
+                "Vagrants"
+            ]
+        },
+        "Bosses": {
+            "Area": [
+                "Asylum Demon",
+                "Bell Gargoyle",
+                "Capra Demon",
+                "Ceaseless Discharge",
+                "Centipede Demon",
+                "Chaos Witch Quelaag",
+                "Crossbreed Priscilla",
+                "Dark Sun Gwyndolin",
+                "Demon Firesage",
+                "Four Kings",
+                "Gaping Dragon",
+                "Great Grey Wolf Sif",
+                "Gwyn Lord of Cinder",
+                "Iron Golem",
+                "Moonlight Butterfly",
+                "Nito",
+                "Ornstein and Smough",
+                "Pinwheel",
+                "Seath the Scaleless",
+                "Stray Demon",
+                "Taurus Demon",
+                "The Bed of Chaos"
+            ],
+            "Mini": [
+                "Black Hydra",
+                "Black Phantom",
+                "Butcher",
+                "Fang Boar",
+                "Giant Cat",
+                "Giant Rat",
+                "Golden Crystal Golem",
+                "Havel The Rock",
+                "Hydra",
+                "Ricard the Archer",
+                "The Berenike Knights",
+                "The Black Knight",
+                "The Bridge Wyvern",
+                "The Channeler",
+                "Titanite Demon",
+                "Undead Dragon",
+                ""
+            ],
+            "Expansion": [
+                "Artorias the Abysswalker",
+                "Black Dragon Kalameet",
+                "Manus, Father of the Abyss",
+                "Sanctuary Guardian"
+            ]
+        }
+    },
+    "II": {
+        "NPCs": {
+            "Treiners": [
+                "Carhillion of the Fold",
+                "Straid of Olaphis",
+                "Rosabeth of Melfia",
+                "Titchy Gren",
+                "Licia of Lindelt",
+                "Blue Sentinel Targray",
+                "Felkin the Outcast",
+                "Darkdiver Grandahl"
+            ],
+            "Merchants": [
+                "Merchant Hag Melentia",
+                "Maughlin the Armourer",
+                "Gavlan",
+                "Straid of Olaphis",
+                "Laddersmith Gilligan",
+                "Magerold of Lanafir",
+                "Chancellor Wellager"
+            ],
+            "Blacksmiths": [
+                "Blacksmith Lenigrast",
+                "Steady Hand McDuff",
+                "Weaponsmith Ornifex",
+                "Straid of Olaphis"
+            ],
+            "Covenant Leaders": [
+                "Titchy Gren",
+                "Blue Sentinel Targray",
+                "Crestfallen Saulden",
+                "Bell Keeper",
+                "Rat King",
+                "Magerold of Lanafir",
+                "Darkdiver Grandahl"
+            ]
+        },
+        "Enemies": {
+
+        },
+        "Bosses": [
+            "The Last Giant",
+            "The Pursuer",
+            "Executioner's Chariot",
+            "Looking Glass Knight",
+            "The Skeleton Lords",
+            "Flexile Sentry",
+            "Lost Sinner",
+            "Belfry Gargoyles",
+            "Ruin Sentinels",
+            "Royal Rat Vanguard",
+            "Royal Rat Authority",
+            "Scorpioness Najka",
+            "The Duke's Dear Freja",
+            "Mytha, the Baneful Queen",
+            "The Rotten",
+            "Old Dragonslayer",
+            "Covetous Demon",
+            "Smelter Demon",
+            "Old Iron King",
+            "Guardian Dragon",
+            "Demon of Song",
+            "Velstadt, The Royal Aegis",
+            "Vendrick",
+            "Darklurker",
+            "Dragonrider",
+            "Twin Dragonriders",
+            "Prowling Magus and Congregation",
+            "Giant Lord",
+            "Ancient Dragon",
+            "Throne Watcher and Throne Defender",
+            "Nashandra",
+            "Aldia, Scholar of the First Sin",
+            "Elana, Squalid Queen",
+            "Sinh, the Slumbering Dragon",
+            "Afflicted Graverobber, Ancient Soldier Varg, and Cerah the Old Explorer",
+            "Smelter Demon",
+            "Fume Knight",
+            "Sir Alonne",
+            "Burnt Ivory King",
+            "Aava, the King's Pet",
+            "Lud and Zallen, the King's Pets"
+        ]
+    },
+    "III": {
+        "NPCs": {
+
+        },
+        "Enemies": {
+
+        },
+        "Bosses": {
+
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "darksouls-names",
+  "version": "0.1.0",
+  "description": "Get random Dark Souls names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogsantos/darksouls-names.git"
+  },
+  "keywords": [
+    "random",
+    "dark",
+    "souls"
+  ],
+  "author": "Fabricio Nogueira <nogsantos@gmail.com> (http://fabricionogueira.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nogsantos/darksouls-names/issues"
+  },
+  "homepage": "https://github.com/nogsantos/darksouls-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
