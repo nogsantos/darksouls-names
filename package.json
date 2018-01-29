@@ -21,7 +21,5 @@
     "url": "https://github.com/nogsantos/darksouls-names/issues"
   },
   "homepage": "https://github.com/nogsantos/darksouls-names#readme",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  }
+  "dependencies": {}
 }
