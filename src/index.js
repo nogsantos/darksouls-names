@@ -13,12 +13,21 @@ class DsNames {
     /**
      * Get a random data
      *
-     * @param {any} version DS version I, II or III
-     * @param {any} category DS category NPCs, Enemies or Bosses
+     * @param {String} version DS version I, II or III
+     * @param {String} category DS category NPCs, Enemies or Bosses
+     * @param {Number} number DS category NPCs, Enemies or Bosses
      * @memberof DsNames
      */
-    random(version, category) {
-        return this.__uniqueRandom(dsNames[version][category]);
+    random(version, category, number) {
+        if (number === undefined) {
+            return this.__uniqueRandom(dsNames[version][category]);
+        } else {
+            const randomItems = [];
+            for (let i = 0; i < number; i++) {
+                randomItems.push(this.__uniqueRandom(dsNames[version][category]));
+            }
+            return randomItems;
+        }
     }
     /**
      * Return a unique random value
