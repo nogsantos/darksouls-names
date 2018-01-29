@@ -1,6 +1,6 @@
 {
   "name": "darksouls-names",
-  "version": "0.1.0",
+  "version": "0.1.0-beta-0",
   "description": "Get random Dark Souls names",
   "main": "src/index.js",
   "scripts": {
@@ -21,7 +21,5 @@
     "url": "https://github.com/nogsantos/darksouls-names/issues"
   },
   "homepage": "https://github.com/nogsantos/darksouls-names#readme",
-  "dependencies": {
-    "unique-random-array": "1.0.0"
-  }
+  "dependencies": {}
 }
