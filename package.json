@@ -1,6 +1,6 @@
 {
   "name": "darksouls-names",
-  "version": "0.1.0",
+  "version": "0.1.0-beta-0",
   "description": "Get random Dark Souls names",
   "main": "src/index.js",
   "scripts": {
