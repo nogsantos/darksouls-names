@@ -1,14 +1,18 @@
 {
   "name": "darksouls-names",
-  "version": "0.1.0-beta-0",
+  "version": "0.0.0-development",
   "description": "Get random Dark Souls names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nogsantos/darksouls-names.git"
+    "url": "https://github.com/nogsantos/darksouls-names.git"
   },
   "keywords": [
     "random",
@@ -21,5 +25,18 @@
     "url": "https://github.com/nogsantos/darksouls-names/issues"
   },
   "homepage": "https://github.com/nogsantos/darksouls-names#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "4.1.2",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.0.0",
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path":"node_modules/cz-conventional-changelog"
+    }
+  }
 }
