@@ -12,4 +12,7 @@ npm install darksouls-names
 
 ```shell
 var names = require('darksouls-names');
+
+... WIP
+
 ```
