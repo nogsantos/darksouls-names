@@ -1,7 +1,7 @@
 {
   "name": "darksouls-names",
   "version": "0.0.0-development",
-  "description": "Get random Dark Souls names",
+  "description": "Get random Dark Souls I, II and III characters names",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
