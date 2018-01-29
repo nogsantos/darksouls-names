@@ -4,7 +4,7 @@
   "description": "Get random Dark Souls names",
   "main": "src/index.js",
   "scripts": {
-    "commit": "git-cz",
+    "commit": "git-cz && git push",
     "test": "mocha src/index.test.js -w",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
