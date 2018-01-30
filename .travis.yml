@@ -3,6 +3,9 @@ cache:
   directories:
     - ~/.npm
     - node_modules
+branches:
+    only:
+        - master
 notifications:
   email: false
 node_js:
