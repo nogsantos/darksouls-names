@@ -19,6 +19,14 @@ npm install darksouls-names
 ```shell
 var names = require('darksouls-names');
 
-... WIP
+console.log(names.all());
+console.log(names.random('I','Bosses'));
+console.log(names.random('II','NPCs'));
+console.log(names.random('III','Enemies'));
+console.log(names.random('III','Enemies', 3));
 
 ```
+
+## Available Resources
+
+Bosses, NPCs and Enemies from DS I, II and III.

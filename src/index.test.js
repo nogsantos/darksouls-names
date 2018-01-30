@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var darkSouls = require('./index');
+import { expect } from 'chai';
+import darkSouls from './index';
 
 describe('darksouls-names', function () {
     describe('all', function () {

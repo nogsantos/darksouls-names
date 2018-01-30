@@ -1,5 +1,4 @@
-"use strict";
-var dsNames = require('./darksouls-names.json');
+import dsNames from './darksouls-names.json';
 class DsNames {
     /**
      * Get All data

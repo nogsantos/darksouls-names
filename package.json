@@ -2,14 +2,17 @@
   "name": "darksouls-names",
   "version": "0.0.0-development",
   "description": "Get random Dark Souls names",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha src/index.test.js -w",
-    "check-coverage": "istanbul check-coverage --statements 60 --branches 60 --functions 60 --lines 60",
+    "check-coverage": "nyc check-coverage --statements 60 --branches 60 --functions 60 --lines 60",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js",
+    "test": "mocha src/index.test.js --compilers js:babel-register",
+    "watch:test": "npm t -- -w",
+    "cover": "nyc npm t",
     "semantic-release": "semantic-release",
+    "prebuild": "rimraf dist",
+    "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
@@ -21,6 +24,10 @@
     "dark",
     "souls"
   ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "Fabricio Nogueira <nogsantos@gmail.com> (http://fabricionogueira.me/)",
   "license": "MIT",
   "bugs": {
@@ -29,13 +36,18 @@
   "homepage": "https://github.com/nogsantos/darksouls-names#readme",
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "6.26.0",
     "chai": "4.1.2",
     "codecov.io": "0.1.6",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
     "ghooks": "2.0.2",
-    "istanbul": "0.4.5",
     "mocha": "5.0.0",
+    "nyc": "11.4.1",
+    "rimraf": "2.6.2",
     "semantic-release": "^12.4.1",
     "travis-deploy-once": "^4.3.3"
   },
@@ -44,7 +56,13 @@
       "path": "node_modules/cz-conventional-changelog"
     },
     "ghooks": {
-      "pre-commit": "npm run test:single && npm run check-coverage"
+      "pre-commit": "npm run cover && npm run check-coverage"
     }
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
   }
 }
