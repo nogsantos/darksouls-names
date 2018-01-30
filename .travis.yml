@@ -3,6 +3,9 @@ cache:
   directories:
     - ~/.npm
     - node_modules
+branches:
+    only:
+        - master
 notifications:
   email: false
 node_js:
@@ -10,8 +13,11 @@ node_js:
 before_script:
   - npm prune
 script:
-  - npm run test:single
+  - npm run cover
+  - npm run check-coverage
+  - npm run build
 after_success:
+  - npm run report-coverage
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
