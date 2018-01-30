@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'commit' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'precommit', 'commit', 'postcommit' ]
+5 info lifecycle darksouls-names@0.0.0-development~precommit: darksouls-names@0.0.0-development
+6 silly lifecycle darksouls-names@0.0.0-development~precommit: no script for precommit, continuing
+7 info lifecycle darksouls-names@0.0.0-development~commit: darksouls-names@0.0.0-development
+8 verbose lifecycle darksouls-names@0.0.0-development~commit: unsafe-perm in lifecycle true
+9 verbose lifecycle darksouls-names@0.0.0-development~commit: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/nogsantos/apps/darksouls-names/node_modules/.bin:/home/nogsantos/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/nogsantos/.local/bin:/home/nogsantos/bin
+10 verbose lifecycle darksouls-names@0.0.0-development~commit: CWD: /home/nogsantos/apps/darksouls-names
+11 silly lifecycle darksouls-names@0.0.0-development~commit: Args: [ '-c', 'git-cz' ]
+12 silly lifecycle darksouls-names@0.0.0-development~commit: Returned: code: 1  signal: null
+13 info lifecycle darksouls-names@0.0.0-development~commit: Failed to exec commit script
+14 verbose stack Error: darksouls-names@0.0.0-development commit: `git-cz`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid darksouls-names@0.0.0-development
+16 verbose cwd /home/nogsantos/apps/darksouls-names
+17 error Linux 4.13.16-100.fc25.x86_64
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "commit"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error darksouls-names@0.0.0-development commit: `git-cz`
+22 error Exit status 1
+23 error Failed at the darksouls-names@0.0.0-development commit script 'git-cz'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the darksouls-names package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     git-cz
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs darksouls-names
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls darksouls-names
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
