@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
-    "test:single": "mocha src/index.test.js",
+    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -31,6 +31,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
     "ghooks": "2.0.2",
+    "istanbul": "0.4.5",
     "mocha": "5.0.0",
     "semantic-release": "^12.4.1",
     "travis-deploy-once": "^4.3.3"
@@ -39,8 +40,8 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     },
-    "ghooks":{
-        "pre-commit":"npm run test:single"
+    "ghooks": {
+      "pre-commit": "npm run test:single"
     }
   }
 }
